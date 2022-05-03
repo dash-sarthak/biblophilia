@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@200;300;400;500;600;700&display=swap');
+
+
+.body-section {
+    margin: 5.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    font-family: 'IBM Plex Sans Condensed';
+    font-size: 3rem;
+    font-weight: 800;
+    color: #3A3845;
+}
+
+.section-container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 0.4rem;
+    box-shadow: 6px 6px 0 0 #3A3845;
+    
+}
+
+.searchbar {
+    width: 80%;
+    border: 1px solid #3A3845;
+    border-right: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 1.3rem;
+    height: 60px;
+    padding: 0 1.5rem;
+    outline: none;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.search-btn {
+    width: 20%;
+    background-color: #FDD7BA;
+    color: #826F66;
+    border: 1px solid #3A3845;
+    border-left: none;
+    border-radius: 0 0.4rem 0.4rem 0;
+    font-family: 'IBM Plex Mono';
+    font-size: 1.3rem;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.search-btn:hover {
+    background-color: #826F66;
+    color: white;
+    cursor: pointer;
+}

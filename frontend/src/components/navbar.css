@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@200;300;400;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    margin: 0;
+    background-color: #3A3845;
+    height: 100px;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 40px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-item {
+    width: 80px;
+    margin: 0 0.8rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: 'IBM Plex Sans Condensed';
+    font-weight: 400;
+    transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    font-weight: 800;
+    transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.nav-item:hover>a {
+    color: rgb(19, 18, 24);
+
+}
+.nav-item:hover {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px 0 0 rgb(209, 209, 209);
+}

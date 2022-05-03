@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@200;300;400;500;600;700&display=swap');
+
+
+p {
+    text-align: left;
+    font-family: 'IBM Plex Mono';
+    margin: 0;
+}
+
+h3 {
+    margin: auto;
+    text-align: left;
+    width: 55%;
+    font-size: 2rem;
+    font-family: 'IBM Plex Sans Condensed';
+}
+
+.result-container {
+    margin-top: 5rem;
+}
+
+.book-card {
+    margin: 1.5rem auto;
+    height: fit-content;
+    width: 55%;
+    background-color: #FDD7BA;
+    color: #3A3845;
+    border-radius: 0.4rem;
+}
+
+.book-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 3rem 0 0 3rem;
+}
+
+.book-author {
+    padding: 0.8rem 0 3rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #826F66;
+}
